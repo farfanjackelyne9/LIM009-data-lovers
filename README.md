@@ -9,7 +9,7 @@ League of Legends es un juego competitivo en línea de ritmo frenético, que fus
 
 ## Prototipo de baja fidelidad
 
-______IMAGEN_____
+https://fotos.subefotos.com/b8955f2025873fa29805f2abed8eb430o.jpg
 
 ______IMAGEN_____
 
