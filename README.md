@@ -1,6 +1,6 @@
 # Data Lovers
 
-## League of Legends
+## League of Legends(LOL)
 
 ______IMAGEN_____
 
