@@ -11,10 +11,10 @@ League of Legends es un juego competitivo en línea de ritmo frenético, que fus
 ![DataLovers](https://fotos.subefotos.com/b8955f2025873fa29805f2abed8eb430o.jpg)
 
 
-______IMAGEN____
+![DataLovers](https://fotos.subefotos.com/c402323e413597d3b3980ca5129e5a95o.jpg)
 
 
-______IMAGEN_____
+![DataLovers](https://fotos.subefotos.com/6959efd4ab4ecec8a3fcd9c8c115ab12o.jpg)
 
 
 ## Prototipo de alta fidelidad
