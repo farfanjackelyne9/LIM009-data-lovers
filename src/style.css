@@ -1,0 +1,14 @@
+*{
+  margin:0;
+  padding:0;  
+}
+.body{
+ background-image: url(imagen-lol/Imagen-de-fondo-lol.jpg);
+ background-size: cover;
+ background-position : center center;
+ background-repeat : no-repeat;
+ background-attachment : fixed;
+ text-align : center;
+ overflow: hidden;
+}
+
