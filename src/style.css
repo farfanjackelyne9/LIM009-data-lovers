@@ -2,8 +2,8 @@
   margin:0;
   padding:0;  
 }
-.body{
- background-image: url(imagen-lol/Imagen-de-fondo-lol.jpg);
+body{
+ background: url(https://areajugones.sport.es/wp-content/uploads/2015/09/league-of-legends.jpg);
  background-size: cover;
  background-position : center center;
  background-repeat : no-repeat;
