@@ -3,16 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <!-- <script src="./data/lol/lol.js"></script> -->
+
+    <header>
+        <figure>
+          <img class="logo" src="icono-lol/logo-lol.png" >
+        </figure>
+    </header>
+
+    <main>
+      <figure>
+        <img src="logo-lol/logo-lol-letras.png" >
+      </figure>
+      <div class="container-champions">
+        <p>CAMPEONES</p>
+      </div>
+      <div class="menu-select">
+        <a class="menu">Fighter</a>
+        <a class="menu">Tank</a>
+        <a class="menu">Assassin</a>
+        <a class="menu">Mage</a>
+        <a class="menu">Support</a>
+        <select class="select" id="ordenar">
+            <option value="order">Ordenar</option>
+            <option value="order">A-Z</option>
+            <option value="order">Z-A</option>
+        </select>
+      </div>
+      <div class="container-champions">
+      </div>
+    </main>
+
+    <footer>
+      <figure>
+       <img src="imagen-footer/WhatsApp Image 2019-03-21 at 11.33.12 AM.jpeg">
+      </figure>
+      <p> © 2017 Riot Games. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="./data/lol/lol.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
   </body>
+
 </html>
