@@ -11,5 +11,10 @@ body{
  text-align : center;
  overflow: hidden;
 }
-
+.logo {
+    position: absolute;
+    width: 3%;
+    left: 12px;
+    top: 14px; 
+}
 
