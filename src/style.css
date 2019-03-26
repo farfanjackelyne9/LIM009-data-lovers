@@ -10,13 +10,17 @@ body{
  background-repeat : no-repeat;
  background-attachment : fixed;
  text-align : center;
- overflow: hidden;
+ /* overflow: hidden; */
 }
-.logo {
+.icono {
     position: absolute;
-    width: 3%;
+    width: 4%;
     left: 12px;
     top: 14px; 
+}
+.logo{
+  width: 50%;
+  padding-top: 13%;
 }
 
 .container-champions {
@@ -47,12 +51,14 @@ footer{
   
   
   }
-
-  .sentence{
-    font-size: 25px;
+.sentence{
+    font-size: 30px;
     line-height: normal;
     color:#E5E5E5;
   }
+.principal-container{
+  padding-top: 20%;
+}
 
   .menu-select {
     background-color: rgba(143, 126, 35, 0.3);
