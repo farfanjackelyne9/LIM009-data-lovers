@@ -4,7 +4,12 @@ let x = Object.values(LOL.data);
  for(let i=0; i<x.length;i++){
  console.log(x[i].name)
   containerChampions.innerHTML += `
-  <div class="img-champions"><img src="${x[i].img}"></img></div>
-    <div class="name-champions"><h5> ${x[i].name}</h5></div>
+  <div class="img-champions">
+  <img class="img-peque" src="${x[i].img}"></img><br>
+    <span> ${x[i].name}</span>
+    </div>
   `
+
+  // let g =` <divdata-xd='asdasd' class="img-champions"><img src=${x} `
+ 
  }
