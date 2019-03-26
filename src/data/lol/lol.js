@@ -1311,6 +1311,8 @@ const LOL = {
       title: "the Widowmaker",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg",
+        img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Evelynn.png",
       blurb:
         "Swift and lethal, Evelynn is one of the most deadly - and expensive - assassins in all of Runeterra. Able to merge with the shadows at will, she patiently stalks her prey, waiting for the right moment to strike. While Evelynn is clearly not entirely ...",
       info: {
@@ -3024,7 +3026,7 @@ const LOL = {
       key: "7",
       name: "LeBlanc",
       title: "the Deceiver",
-      "name:":
+      img :
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Leblanc.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leblanc_0.jpg",
