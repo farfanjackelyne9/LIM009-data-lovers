@@ -43,10 +43,21 @@ footer{
   font-size: 25px;
   line-height: normal;
   color: #F7EFEF;
+  margin:0px 25px ;
+  
+  
   }
 
   .sentence{
     font-size: 25px;
     line-height: normal;
     color:#E5E5E5;
+  }
+
+  .menu-select {
+    background-color: rgba(143, 126, 35, 0.3);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
