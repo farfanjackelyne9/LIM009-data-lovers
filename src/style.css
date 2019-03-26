@@ -10,42 +10,6 @@ body{
  background-position: center; 
  background-repeat : no-repeat; 
  text-align : center;
-<<<<<<< HEAD
-  /* overflow: hidden;  saque esto y aparecio la barra desplzamiento*/
-}
-.logo{
-   width: 40%;
-  padding-top: 13%; 
-}
-.icono {
-  position: absolute;
-  width: 3%;
-  left: 12px;
-  top: 14px; 
-}
-.sentence{
-  font-size: 25px;
-  line-height: normal;
-  color:#E5E5E5;
-}
-.menu-select{
- background: rgba(155, 115, 41, 0.23); 
-}
-.menu{
-font-family: Rosarivo;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: normal;
-color: #F7EFEF;
-}
- .container{
-background: rgba(196, 196, 196, 0.31);
-}
-footer{
-  background: rgba(155, 115, 41, 0.23); 
-}
-=======
  /* overflow: hidden; */
 }
 .icono {
@@ -103,4 +67,3 @@ footer{
     align-items: center;
     justify-content: center;
   }
->>>>>>> 94d22895393b4000e59f0810958b22cbf1639120
