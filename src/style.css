@@ -6,9 +6,9 @@
 body{
  background: url(https://areajugones.sport.es/wp-content/uploads/2015/09/league-of-legends.jpg);
  background-size: cover;
- background-position : center center;
- background-repeat : no-repeat;
- background-attachment : fixed;
+ background-attachment: fixed;
+ background-position: center; 
+ background-repeat : no-repeat; 
  text-align : center;
  /* overflow: hidden; */
 }
@@ -22,34 +22,29 @@ body{
   width: 50%;
   padding-top: 13%;
 }
-
-.container-champions {
+#container-champions {
   padding:10px;
-  background-color: rgba(240,240,240,0.3);
+  background: rgba(240,240,240,0.3);
   display:flex;
   flex-wrap: wrap;
-  overflow-x: scroll;
-  height:400px;
+  /* overflow-x: scroll; */
+  /* height:400px; */
 }
-.img-champions {
+#img-champions {
   width: 95px;
   height:95px;
 }
-.img-tiny {}
-
 footer{
   background: rgba(155, 115, 41, 0.23); 
+  padding-top: 2%;
 }
 .menu{
   font-family: Rosarivo;
-  font-style: normal;
-  font-weight: normal;
   font-size: 25px;
-  line-height: normal;
   color: #F7EFEF;
   margin:0px 25px ;
-  
-  
+  text-decoration: none; 
+  padding: 0px 30px;
   }
 .sentence{
     font-size: 30px;
@@ -58,12 +53,16 @@ footer{
   }
 .principal-container{
   padding-top: 20%;
-}
-
-  .menu-select {
+} 
+.menu-select {
     background-color: rgba(143, 126, 35, 0.3);
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style: none;
+  }
+.container{
+    width: 97%;
+    margin: 2% auto;
   }

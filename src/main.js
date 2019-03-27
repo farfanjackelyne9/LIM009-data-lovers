@@ -1,15 +1,18 @@
+// const LOL =document.getElementById("LOL")
 const containerChampions= document.getElementById("container-champions");
 let x = Object.values(LOL.data);
-// console.log(x)
  for(let i=0; i<x.length;i++){
- console.log(x[i].name)
   containerChampions.innerHTML += `
-  <div class="img-champions">
-  <img class="img-peque" src="${x[i].img}"></img><br>
-    <span> ${x[i].name}</span>
+  <div id="img-champions" class="row six-columna">
+    <div>
+      <img id="img-peque" src="${x[i].img}">
+      </img>
     </div>
-  `
-
-  // let g =` <divdata-xd='asdasd' class="img-champions"><img src=${x} `
- 
- }
+      <br>
+    <div> ${x[i].name}
+    </div>
+  </div>
+  `}
+ document.getElementsByClassName("menu").addEvenListener("click",()=>{
+   
+ })
