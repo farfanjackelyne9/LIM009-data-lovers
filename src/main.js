@@ -1,4 +1,4 @@
-const LOL =document.getElementById("LOL")
+// const LOL =document.getElementById("LOL")
 const containerChampions= document.getElementById("container-champions");
 let x = Object.values(LOL.data);
  for(let i=0; i<x.length;i++){
