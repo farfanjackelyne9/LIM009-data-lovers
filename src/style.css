@@ -27,10 +27,8 @@ body{
   background: rgba(240,240,240,0.3);
   display:flex;
   flex-wrap: wrap;
-  /* overflow-x: scroll; */
-  /* height:400px; */
 }
-#img-champions {
+.img-champions {
   width: 95px;
   height:95px;
 }
@@ -47,22 +45,22 @@ footer{
   padding: 0px 30px;
   }
 .sentence{
-    font-size: 30px;
-    line-height: normal;
-    color:#E5E5E5;
-  }
+  font-size: 30px;
+  line-height: normal;
+  color:#E5E5E5;
+}
 .principal-container{
   padding-top: 20%;
 } 
 .menu-select {
-    background-color: rgba(143, 126, 35, 0.3);
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-  }
+  background-color: rgba(143, 126, 35, 0.3);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
 .container{
-    width: 97%;
-    margin: 2% auto;
-  }
+  width: 97%;
+  margin: 2% auto;
+}
