@@ -54,7 +54,7 @@ League of Legends es un juego competitivo en línea de ritmo frenético, que fus
 
    *`Quiero :` Filtrar a los campeones por orden alfabetico (A-Z) y viceversa (Z-A) .
 
-   *`Funcionalidad :` Para saber conocer más a los campeones.
+   *`Funcionalidad :` Para conocer más a los campeones.
 
    *`Definición de terminado :` El usuario tendrá un select que a la hora de darle click a "ordenar    por" le dara la opción de poner a los campeones en orden alfabetico y viceversa.
 
