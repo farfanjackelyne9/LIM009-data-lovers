@@ -30,7 +30,7 @@ body{
   /* overflow-x: scroll; */
   /* height:400px; */
 }
-#img-champions {
+.img-champions {
   width: 95px;
   height:95px;
 }
