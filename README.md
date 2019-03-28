@@ -32,13 +32,23 @@ League of Legends es un juego competitivo en línea de ritmo frenético, que fus
  
    *`Yo como usuario :` De la aplicación.
 
+   *`Quiero :` Poder ver a todos los campeones en una sola pantalla con sus nombres.
+
+   *`Funcionalidad :` Para conocer a todos los campeones .
+
+   *`Definición de terminado :` El usuario tendrá un listado de todos los campeones.
+
+#### 2.Historia de Usuario:
+ 
+   *`Yo como usuario :` De la aplicación.
+
    *`Quiero :` Filtrar por roles a los campeones.
 
    *`Funcionalidad :` Para saber que campeones elegir dependiendo del rol de mi agrado.
 
    *`Definición de terminado :` El usuario tendrá una selección de los distintos roles, que a la hora   de dar click los filtra por categoria.
 
-#### 2.Historia de Usuario:
+#### 3.Historia de Usuario:
 
    *`Yo como usuario :` De la aplicación.
 
@@ -48,22 +58,13 @@ League of Legends es un juego competitivo en línea de ritmo frenético, que fus
 
    *`Definición de terminado :` El usuario tendrá un select que a la hora de darle click lo podra      ordenar a la categoria que él desee. Ejemplo : En este caso le daria click a los de mayor fuerza, y los campeones se ordenarian desde los más fuertes hasta los más debiles.
 
-#### 3.Historia de Usuario:
+#### 4.Historia de Usuario:
 
    *`Yo como usuario :` De la aplicación.
 
-   *`Quiero :` Filtrar a los campeones por orden alfabetico (A-Z) y viceversa (Z-A) .
+   *`Quiero :` Ordenar alfabeticamente a los campeones (A-Z) y viceversa (Z-A) .
 
    *`Funcionalidad :` Para conocer más a los campeones.
 
    *`Definición de terminado :` El usuario tendrá un select que a la hora de darle click a "ordenar    por" le dara la opción de poner a los campeones en orden alfabetico y viceversa.
 
-#### 4.Historia de Usuario:
-
-   *`Yo como usuario :` De la aplicación.
-
-   *`Quiero :` Filtrar a los campeones por su ID.
-
-   *`Funcionalidad :` Para saber las caracteristicas del campeon de mi agrado.
-
-   *`Definición de terminado :` El usuario tendrá un input que a la hora de darle enter , filtrará al campeon de su agrado y seguido podrá darle click a su campeon para ver sus caracteristicas.
