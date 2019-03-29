@@ -42,4 +42,10 @@ console.log(k);
   * y hacer el redireccionar
   * llegando la pagina cargar lo que se guardo en el localstorage 
   * 
+<<<<<<< HEAD
   */
+=======
+  */
+
+ 
+>>>>>>> 08f3988c64cf132ab397d88ef5882dd751510d02
