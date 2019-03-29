@@ -7,4 +7,21 @@ const example = () => {
   return 'example';
 };
 
-window.example = example;
+const filterData=(data,condition)=>{
+  let newChampions=[];
+    //  console.log(data,condition);
+     for(let i=0;data.length>i;i++){
+      for(let j=0;data[i].tags.length>j;j++){
+          if(data[i].tags[j] === condition){
+              newChampions.push(data[i]);
+          }
+
+      }
+
+     }
+
+     return newChampions;
+    
+}
+
+window.filterData= filterData;
