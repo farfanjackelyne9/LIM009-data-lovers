@@ -11,7 +11,7 @@
 
     <header>
         <figure>
-          <img class="icono" src="icono-lol/logo-lol.png" >
+          <img class="icono" id="img1" src="icono-lol/logo-lol.png" >
         </figure>
     </header>
 
@@ -26,12 +26,12 @@
       <div class="principal-container">
         <div class="menu-select">
           <!-- agregue <li> y en href="#" a <a> para el menu-->
-          <li><a href="#" class="menu">Fighter</a></li>
-          <li><a href="#" class="menu">Tank</a></li>
-          <li><a href="#" class="menu">Assassin</a></li>
-          <li><a href="#" class="menu">Mage</a></li>
-          <li><a href="#" class="menu">Marksman</a></li>
-          <li><a href="#" class="menu">Support</a></li>
+          <li><a href="#" data-name="Fighter" class="menu">Fighter</a></li>
+          <li><a href="#" data-name="Tank" class="menu">Tank</a></li>
+          <li><a href="#" data-name="Assassin"  class="menu">Assassin</a></li>
+          <li><a href="#" data-name="Mage" class="menu">Mage</a></li>
+          <li><a  data-name="Marksman" class="menu">Marksman</a></li>
+          <li><a  data-name="Support" class="menu">Support</a></li>
           <select class="select" id="order">
             <option value="order">Ordenar</option>
             <option value="order">A-Z</option>
