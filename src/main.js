@@ -4,6 +4,7 @@ const containerChampions= document.getElementById("container-champions");
 let champions = Object.values(LOL.data);
 
 const paintChampions=(championsx)=>{
+  console.log(championsx.length);
   let htmlx="";
   for(let i=0; i<championsx.length;i++){
     htmlx+= `
@@ -20,22 +21,20 @@ const paintChampions=(championsx)=>{
     containerChampions.innerHTML=htmlx;
 } 
 paintChampions(champions);
- let roleName=document.getElementsByClassName("menu");
- for(let i=0;roleName.length>i;i++){
-  roleName[i].addEventListener("click",(e)=>{
+ let element=document.getElementsByClassName("menu");
+ console.log(element);
+ let k=document.getElementById("img1");
+console.log(k);
+ for(let i=0;element.length>i;i++){
+
+  element[i].addEventListener("click",(e)=>{
+    console.log("data Capturada" , e.target.dataset.name);
    let newChampions=filterData(champions,e.target.dataset.name);
+   console.log(newChampions);
    paintChampions(newChampions);
   })
- }
 
-// paintChampions(champions);
-//  let x=document.getElementsByClassName("order");
-//  for(let i=0;i<x.length;i++){
-//   x[i].addEventListener("click",(e)=>{
-//     let orderChampions=sortData(champions,e.target.dataset.order);
-//     paintChampions(orderChampions);
-//   })
-// }
+ }
 
  /***
   * el evento 
@@ -44,5 +43,4 @@ paintChampions(champions);
   * llegando la pagina cargar lo que se guardo en el localstorage 
   * 
   */
-
  

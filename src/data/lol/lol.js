@@ -98,7 +98,7 @@ const LOL = {
         hpregen: 6.505,
         hpregenperlevel: 0.6,
         mpregen: 6,
-        mpregenperlevel: 0.8,
+        mpregenperlevel: 0.8, 
         crit: 0,
         critperlevel: 0,
         attackdamage: 53.04,
