@@ -25,3 +25,57 @@ const filterData=(data,condition)=>{
 }
 
 window.filterData= filterData;
+const sortData=(data,sortBy,sortOrder)=>{
+
+  /** filtrar data usando data - sortBy */
+  let championFilter;
+   //solamente de ese tag
+  if(sortBy=="All"){
+    championFilter=data;
+  }
+  else {
+    championFilter=filterData(data,sortBy);
+  }
+
+
+  if(sortOrder == "1"){
+    console.log("Ordenar A-Z");
+
+   let newAZ= championFilter.sort((a,b)=>{
+          return a.name.localeCompare(b.name);
+    });
+    
+return newAZ;
+
+  }
+  else if(sortOrder=="2"){
+   console.log("Ordenar Z-A");
+   
+  let newZA= championFilter.sort((a,b)=>{
+     return b.name.localeCompare(a.name);
+});  
+  return newZA;
+}
+}
+
+
+window.sortData= sortData;
+
+
+const computeStats=(data)=>{
+ //(15+25+35)/3
+    let statsName="hp";
+   let getStats= data.map((champion)=>{ return champion.stats[statsName];})   
+  console.log(getStats,getStats.length);
+  let sumatory=0;
+  for(let i=0;getStats.length>i;i++){
+    sumatory+=getStats[i];
+  }
+  let calculo=((sumatory)/getStats.length).toFixed(2);
+  return calculo;
+
+
+
+}
+
+window.computeStats=computeStats;
