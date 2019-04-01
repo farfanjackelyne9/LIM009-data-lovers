@@ -1,12 +1,5 @@
 /* Manejo de data */
 
-// esta es una función de ejemplo
-// puedes ver como agregamos la función a nuestro objeto global window
-
-const example = () => {
-  return 'example';
-};
-
 const filterData=(data,condition)=>{
   let newChampions=[];
     //  console.log(data,condition);
@@ -39,7 +32,6 @@ const sortData=(data,sortBy,sortOrder)=>{
 
 
   if(sortOrder == "1"){
-    console.log("Ordenar A-Z");
 
    let newAZ= championFilter.sort((a,b)=>{
           return a.name.localeCompare(b.name);
@@ -49,7 +41,6 @@ return newAZ;
 
   }
   else if(sortOrder=="2"){
-   console.log("Ordenar Z-A");
    
   let newZA= championFilter.sort((a,b)=>{
      return b.name.localeCompare(a.name);
@@ -66,7 +57,6 @@ const computeStats=(data)=>{
  //(15+25+35)/3
     let statsName="hp";
    let getStats= data.map((champion)=>{ return champion.stats[statsName];})   
-  console.log(getStats,getStats.length);
   let sumatory=0;
   for(let i=0;getStats.length>i;i++){
     sumatory+=getStats[i];
