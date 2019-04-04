@@ -1,16 +1,17 @@
 global.window = global;
-global.assert = require('chai').assert;
 require('../src/data');
 require('./data.spec.js');
+// const input=LOL.data;
+// const onput=
 
 
-describe('example', () => {
+describe('filterData', () => {
   
   it('debería ser una función', () => {
-    assert.equal(typeof example, 'function');
+    expect(typeof filterData).toBe('function');
   });
 
   it('debería retornar "example"', () => {
-    assert.equal(example(), 'example');
+    expect(example()).toBe('');
   });
 })

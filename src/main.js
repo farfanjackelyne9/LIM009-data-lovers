@@ -29,7 +29,6 @@ paintChampions(champions);
  let element=document.getElementsByClassName("menu");
 //  let k=document.getElementById("img1");
  for(let i=0;element.length>i;i++){
-
   element[i].addEventListener("click",()=>{
      let elementoActual = element[i];
    let newChampions=window.filterData(champions,elementoActual.dataset.name);
@@ -39,9 +38,7 @@ paintChampions(champions);
   //  championsActual=newChampions;
    paintChampions(newChampions);
   })
-
- }
-
+ };
  const ordering= document.getElementById("order");
  ordering.addEventListener("change", ()=>{
    let oValue=ordering.value;
