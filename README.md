@@ -13,7 +13,7 @@ League of Legends es un juego competitivo en línea de ritmo frenético, que fus
 ![DataLovers](https://fotos.subefotos.com/c402323e413597d3b3980ca5129e5a95o.jpg)
 
 
-![DataLovers](https://fotos.subefotos.com/6959efd4ab4ecec8a3fcd9c8c115ab12o.jpg)
+[DataLovers](https://fotos.subefotos.com/6959efd4ab4ecec8a3fcd9c8c115ab12o.jpg)
 
 
 ## Prototipo de alta fidelidad
@@ -23,7 +23,7 @@ League of Legends es un juego competitivo en línea de ritmo frenético, que fus
 ![DataLovers](https://fotos.subefotos.com/4b533c1ad52ea4de83bf163b6fffb070o.jpg)
 
 
-![DataLovers](https://fotos.subefotos.com/a2afe312e2b018765284fe5788397e72o.jpg)
+[DataLovers](https://fotos.subefotos.com/a2afe312e2b018765284fe5788397e72o.jpg)
 
 
 ## Historias de Usuarios
@@ -52,11 +52,11 @@ League of Legends es un juego competitivo en línea de ritmo frenético, que fus
 
    *`Yo como usuario :` De la aplicación.
 
-   *`Quiero :` Filtrar a los campeones por los de mayor fuerza de ataque y los que tienen más vida.
+   *`Quiero :` Tener un promedio total de hp de los campeones según sus roles.
 
-   *`Funcionalidad :` Para saber que campeones me ayudarian a ganar la partida.
+   *`Funcionalidad :` Para asi saber que rol tiene más hp.
 
-   *`Definición de terminado :` El usuario tendrá un select que a la hora de darle click lo podra      ordenar a la categoria que él desee. Ejemplo : En este caso le daria click a los de mayor fuerza, y los campeones se ordenarian desde los más fuertes hasta los más debiles.
+   *`Definición de terminado :` El usuario tendrá en la parte final del contenedor de los campeones saldrá el promedio de hp según los roles clickeados.
 
 #### 4.Historia de Usuario:
 
