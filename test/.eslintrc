@@ -4,6 +4,8 @@
     "jest": true
   },
   "globals": {
-    "assert": false
+    "assert": false,
+    "LOL":false,
+    "Globalda":false
   }
 }
