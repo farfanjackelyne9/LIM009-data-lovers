@@ -8,18 +8,11 @@ const filterData=(data,condition)=>{
           if(data[i].tags[j] === condition){
               newChampions.push(data[i]);
           }
-
       }
-
      }
-
-     return newChampions;
-    
+     return newChampions;   
 }
-
-window.filterData= filterData;
 const sortData=(data,sortBy,sortOrder)=>{
-
   /** filtrar data usando data - sortBy */
   let championFilter;
    //solamente de ese tag
@@ -29,29 +22,20 @@ const sortData=(data,sortBy,sortOrder)=>{
   else {
     championFilter=filterData(data,sortBy);
   }
-
-
   if(sortOrder == "1"){
 
    let newAZ= championFilter.sort((a,b)=>{
           return a.name.localeCompare(b.name);
-    });
-    
+    });    
 return newAZ;
-
   }
-  else if(sortOrder=="2"){
-   
+  else if(sortOrder=="2"){ 
   let newZA= championFilter.sort((a,b)=>{
      return b.name.localeCompare(a.name);
 });  
   return newZA;
 }
 }
-
-
-window.sortData= sortData;
-
 
 const computeStats=(data)=>{
  //(15+25+35)/3
@@ -69,4 +53,10 @@ const computeStats=(data)=>{
 
 }
 
-window.computeStats=computeStats;
+
+window.Globalda={
+  filterData,
+  sortData,
+  computeStats
+
+}

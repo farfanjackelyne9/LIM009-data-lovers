@@ -4,8 +4,8 @@ let tags="All";
 const containerChampions= document.getElementById("container-champions"); // pintar resultdo de champiojn
 const elementoPromedio=document.getElementById("resultadoPromedio"); // pintar el promedio en texto
 const x=window.LOL;
-let champions = Object.values(x.data); //getChampion
-let promedio=window.computeStats(champions);
+let champions = Object.values(x.data);
+let promedio=Globalda.computeStats(champions);
 elementoPromedio.innerText=` El Promedio de HP es de  ${promedio} `;
 
 // championsActual=champions;
@@ -25,45 +25,32 @@ const paintChampions=(champions)=>{
 
     containerChampions.innerHTML=htmlx;
 } 
-paintChampions(champions);
+paintChampions(champions)
+
  let element=document.getElementsByClassName("menu");
 //  let k=document.getElementById("img1");
  for(let i=0;element.length>i;i++){
-
   element[i].addEventListener("click",()=>{
-     let elementoActual = element[i];
-   let newChampions=window.filterData(champions,elementoActual.dataset.name);
-   let promedio=window.computeStats(newChampions);
+   let elementoActual = element[i];
+   let newChampions=Globalda.filterData(champions,elementoActual.dataset.name);
+   let promedio=Globalda.computeStats(newChampions);
    elementoPromedio.innerText=` El Promedio de HP es de  ${promedio} `;
-   tags=elementoActual.dataset.name;
+  //  tags=elementoActual.dataset.name;
   //  championsActual=newChampions;
-   paintChampions(newChampions);
+   paintChampions(newChampions)
   })
-
  }
-
  const ordering= document.getElementById("order");
  ordering.addEventListener("change", ()=>{
    let oValue=ordering.value;
-
-   if(oValue == "1"){
- 
-    let newAZ= window.sortData(champions,tags,oValue);
-
-   paintChampions(newAZ);
-
+    if(oValue == "1"){
+     let newAZ= Globalda.sortData(champions,tags,oValue);
+       paintChampions(newAZ)
    }
    else if(oValue=="2"){
-    
-   let newZA= window.sortData(champions,tags,oValue);
-paintChampions(newZA);
+      let newZA= Globalda.sortData(champions,tags,oValue);
+        paintChampions(newZA)
    }
- })
- /***
-  * el evento 
-  * guardar la informacion en localstrogare
-  * y hacer el redireccionar
-  * llegando la pagina cargar lo que se guardo en el localstorage 
-  * 
-  */
+ });
+ 
  
