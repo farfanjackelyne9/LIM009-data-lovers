@@ -1,10 +1,10 @@
 // const LOL =document.getElementById("LOL")
 // let championsActual; //variable super global
 let tags="All";
-const containerChampions= document.getElementById("container-champions");
-const elementoPromedio=document.getElementById("resultadoPromedio");
+const containerChampions= document.getElementById("container-champions"); // pintar resultdo de champiojn
+const elementoPromedio=document.getElementById("resultadoPromedio"); // pintar el promedio en texto
 const x=window.LOL;
-let champions = Object.values(x.data);
+let champions = Object.values(x.data); //getChampion
 let promedio=window.computeStats(champions);
 elementoPromedio.innerText=` El Promedio de HP es de  ${promedio} `;
 

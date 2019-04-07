@@ -3,8 +3,8 @@
 const filterData=(data,condition)=>{
   let newChampions=[];
     //  console.log(data,condition);
-     for(let i=0;data.length>i;i++){
-      for(let j=0;data[i].tags.length>j;j++){
+     for(let i=0;data.length>i;i++){//para recorrer los campeones
+      for(let j=0;data[i].tags.length>j;j++){ // para recorrar los tags y validar si hacen math con las condicion
           if(data[i].tags[j] === condition){
               newChampions.push(data[i]);
           }
@@ -56,7 +56,8 @@ window.sortData= sortData;
 const computeStats=(data)=>{
  //(15+25+35)/3
     let statsName="hp";
-   let getStats= data.map((champion)=>{ return champion.stats[statsName];})   
+    //[{},{},{}]
+   let getStats= data.map((champion)=>{ return champion.stats[statsName];})   //filtra y te devulve en array la propiedad que especificas en el return
   let sumatory=0;
   for(let i=0;getStats.length>i;i++){
     sumatory+=getStats[i];

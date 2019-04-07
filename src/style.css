@@ -27,6 +27,7 @@ body{
   background: rgba(240,240,240,0.3);
   display:flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .img-champions {
   width: 95px;
