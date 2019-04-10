@@ -3,8 +3,8 @@
 let tags = "All";
 const containerChampions = document.getElementById("container-champions"); // pintar resultdo de champiojn
 const elementoPromedio = document.getElementById("resultadoPromedio"); // pintar el promedio en texto
-const x = window.LOL;
-let champions = Object.values(x.data);
+const global = window.LOL;
+let champions = Object.values(global.data);
 let promedio = Globalda.computeStats(champions);
 elementoPromedio.innerText = ` El Promedio de HP es de  ${promedio} `;
 
@@ -20,13 +20,11 @@ const paintChampions = (champions) => {
       <div>
        ${champions[i].name}
       </div>
-    </div>
-    `}
-
+    </div> `;
+  }
   containerChampions.innerHTML = htmlx;
-}
-paintChampions(champions)
-
+};
+paintChampions(champions);
 let element = document.getElementsByClassName("menu");
 //  let k=document.getElementById("img1");
 for (let i = 0; element.length > i; i++) {
@@ -37,19 +35,18 @@ for (let i = 0; element.length > i; i++) {
     elementoPromedio.innerText = ` El Promedio de HP es de  ${promedio} `;
     tags = elementoActual.dataset.name;
     //  championsActual=newChampions;
-    paintChampions(newChampions)
-  })
+    paintChampions(newChampions);
+  });
 }
 const ordering = document.getElementById("order");
 ordering.addEventListener("change", () => {
   let oValue = ordering.value;
-  if (oValue == "1") {
+  if (oValue === "1") {
     let newAZ = Globalda.sortData(champions, tags, oValue);
-    paintChampions(newAZ)
-  }
-  else if (oValue == "2") {
+    paintChampions(newAZ);
+  } else if (oValue === "2") {
     let newZA = Globalda.sortData(champions, tags, oValue);
-    paintChampions(newZA)
+    paintChampions(newZA);
   }
 });
 
