@@ -29,9 +29,8 @@ paintChampions(champions)
 
  let element=document.getElementsByClassName("menu");
  
- console.log(typeof element,element);
-//  element=element.concat(element1);
-//  let k=document.getElementById("img1");
+ 
+
  for(let i=0;element.length>i;i++){
   element[i].addEventListener("click",()=>{
    let elementoActual = element[i];
@@ -47,9 +46,12 @@ paintChampions(champions)
 
 
  }
- const ordering= document.getElementById("order");
- ordering.addEventListener("change", ()=>{
-   let oValue=ordering.value;
+ const ordering= document.getElementsByClassName("order");
+
+ for(let i=0;ordering.length>i;i++){
+
+ ordering[i].addEventListener("change", ()=>{
+   let oValue=ordering[i].value;
     if(oValue == "1"){
      let newAZ= Globalda.sortData(champions,tags,oValue);
        paintChampions(newAZ)
@@ -59,5 +61,5 @@ paintChampions(champions)
         paintChampions(newZA)
    }
  });
- 
+}
  

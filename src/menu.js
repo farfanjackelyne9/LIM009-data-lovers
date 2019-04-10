@@ -7,7 +7,7 @@ let getId=function(nameId){
 
 let menuCel=getId("menuCel");
 let menuButton=getId("menuButton");
-let mc=getId("mc");
+
 let estado=false;
 menuButton.addEventListener("click",function(){
    
