@@ -54,5 +54,4 @@ window.Globalda = {
   filterData,
   sortData,
   computeStats
-
 };

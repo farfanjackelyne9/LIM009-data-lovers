@@ -552,7 +552,7 @@ describe('sortData', () => {
   });
 
   it('debería retornar un objeto segun la condición', () => {
-    expect(Globalda.sortData(inputTags, 'All')).toBe(inputTags);
+    expect(Globalda.sortData(inputTags, 'All',"1")).toBe(inputTags);
   });
 });
 describe('computeStats', () => {
