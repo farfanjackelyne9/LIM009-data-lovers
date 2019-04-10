@@ -8,13 +8,40 @@
   </head>
 
   <body>
+    <div class="menudesplegable"  id="mc">
+      <div  class="barra">
+          <div class="m-button">
+              <img   id="menuButton"  src="icono-lol/barramenu.png" alt="">
+            </div>
 
+      </div>
+         
+
+         
+   
+     <div   id="menuCel" class="m-cel">
+       <ul>
+        <li><a  data-name="Fighter" class="menu menu-cel">Fighter</a></li>
+        <li><a  data-name="Tank" class="menu menu-cel">Tank</a></li>
+        <li><a   data-name="Assassin"  class="menu menu-cel">Assassin</a></li>
+        <li><a  data-name="Mage" class="menu menu-cel">Mage</a></li>
+        <li><a  data-name="Marksman" class="menu menu-cel">Marksman</a></li>
+        <li><a  data-name="Support" class="menu menu-cel">Support</a></li>
+        <li><a  data-name="Melee" class="menu menu-cel">Melee</a></li>
+        <select class="select"  id="order">
+          <option value="order">Ordenar</option>
+          <option value="1">A-Z</option>
+          <option value="2">Z-A</option>
+        </select>
+       </ul>
+     </div>
+    </div>
     <header>
         <figure>
           <img class="icono" id="img1" src="icono-lol/logo-lol.png" >
         </figure>
     </header>
-
+   
     <main>
       <figure>
         <img class="logo" src="logo-lol/logo-lol-letras.png" >
@@ -26,19 +53,20 @@
       <div class="principal-container">
         <div class="menu-select">
           <!-- agregue <li> y en href="#" a <a> para el menu-->
-          <li><a  data-name="Fighter" class="menu">Fighter</a></li>
-          <li><a  data-name="Tank" class="menu">Tank</a></li>
-          <li><a   data-name="Assassin"  class="menu">Assassin</a></li>
-          <li><a  data-name="Mage" class="menu">Mage</a></li>
-          <li><a  data-name="Marksman" class="menu">Marksman</a></li>
-          <li><a  data-name="Support" class="menu">Support</a></li>
-          <li><a  data-name="Melee" class="menu">Melee</a></li>
+          <li><a  data-name="Fighter" class="menu stylemenu">Fighter</a></li>
+          <li><a  data-name="Tank" class="menu stylemenu">Tank</a></li>
+          <li><a   data-name="Assassin"  class="menu stylemenu">Assassin</a></li>
+          <li><a  data-name="Mage" class="menu stylemenu">Mage</a></li>
+          <li><a  data-name="Marksman" class="menu stylemenu">Marksman</a></li>
+          <li><a  data-name="Support" class="menu stylemenu">Support</a></li>
+          <li><a  data-name="Melee" class="menu stylemenu">Melee</a></li>
           <select class="select"  id="order">
             <option value="order">Ordenar</option>
             <option value="1">A-Z</option>
             <option value="2">Z-A</option>
           </select>
         </div>
+       
         <div id="container-champions" class="container">
         </div>
      </div>
@@ -46,7 +74,7 @@
     </main>
 
    <div class="promedio">
-     <p id="resultadoPromedio">Probando</p>
+     <span id="resultadoPromedio"></span>
    </div>
 
     <footer>
@@ -59,6 +87,7 @@
     <script src="./data/lol/lol.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
+    <script src="menu.js"></script> 
   </body>
 
 </html>

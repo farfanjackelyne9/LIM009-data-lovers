@@ -322,7 +322,7 @@ const output2=[{
 describe('filterData', () => {
   
   it('debería ser una función', () => {
-    expect(typeof Globalda.filterData).toBe(true);
+    expect(typeof Globalda.filterData).toBe("function");
   });
 
    it('debería retornar un objeto segun la condición', () => {
@@ -336,13 +336,13 @@ describe('sortData', () => {
   });
 
    it('debería retornar un objeto segun la condición', () => {
-     expect(Globalda.sortData(input,'tags',2)).toEqual(output2);
+     expect(Globalda.sortData(input,'Tank',2)).toEqual(output2);
    });
 });
 describe('computeStats', () => {
   
   it('debería ser una función', () => {
-    expect(typeof Globalda.computeStats).toBe(true);
+    expect(typeof Globalda.computeStats).toBe("function");
   });
 
    it('debería retornar un objeto segun la condición', () => {

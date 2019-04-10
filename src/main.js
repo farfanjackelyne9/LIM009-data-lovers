@@ -28,6 +28,9 @@ const paintChampions=(champions)=>{
 paintChampions(champions)
 
  let element=document.getElementsByClassName("menu");
+ 
+ console.log(typeof element,element);
+//  element=element.concat(element1);
 //  let k=document.getElementById("img1");
  for(let i=0;element.length>i;i++){
   element[i].addEventListener("click",()=>{
@@ -35,10 +38,14 @@ paintChampions(champions)
    let newChampions=Globalda.filterData(champions,elementoActual.dataset.name);
    let promedio=Globalda.computeStats(newChampions);
    elementoPromedio.innerText=` El Promedio de HP es de  ${promedio} `;
-  //  tags=elementoActual.dataset.name;
+    tags=elementoActual.dataset.name;
   //  championsActual=newChampions;
    paintChampions(newChampions)
   })
+
+ 
+
+
  }
  const ordering= document.getElementById("order");
  ordering.addEventListener("change", ()=>{
