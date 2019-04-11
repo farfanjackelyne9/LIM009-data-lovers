@@ -10,8 +10,17 @@
     "linebreak-style": 0,
     "global-require": 0,
     "keyword-spacing": 1,
-    "space-before-function-paren": [1, "never"],
-    "arrow-spacing":  ["error", { "before": true, "after": true }],
+    "space-before-function-paren": [
+      1,
+      "never"
+    ],
+    "arrow-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
     "eqeqeq": 1,
     "space-infix-ops": 1,
     "comma-spacing": 1,
@@ -23,21 +32,39 @@
     "semi": 1,
     "no-floating-decimal": 1,
     "no-multi-spaces": 1,
-    "padded-blocks": [1, "never"],
+    "padded-blocks": [
+      1,
+      "never"
+    ],
     "space-before-blocks": 1,
     "space-in-parens": 1,
     "spaced-comment": 1,
-    "id-length": [1, { "exceptions": ["x", "y", "w","h","j","i","a","b"] }],
-    "indent": [1, 2],
+    "id-length": [
+      1,
+      {
+        "exceptions": [
+          "x",
+          "y",
+          "w",
+          "h",
+          "j",
+          "i",
+          "a",
+          "b"
+        ]
+      }
+    ],
+    "indent": [
+      1,
+      2
+    ],
     "no-array-constructor": 1,
     "no-const-assign": "error",
     "no-var": "error"
- 
- },
+  },
   "extends": "eslint:recommended",
-
   "globals": {
     "Globalda": false,
     "google": false
   }
- }
+}
