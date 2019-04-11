@@ -3,9 +3,9 @@
 const filterData = (data, condition) => {
   let newChampions = [];
   for (let i = 0; data.length > i; i++) { /* para recorrer los campeones*/
-    for (let j = 0; data[i].tags.length > j; j++) { /* para recorrar lo0s tags y validar si hacen math con las condicion*/
-      if (data[i].tags[j] === condition) {
-        newChampions.push(data[i]);
+    for (let j = 0; data[i].tags.length > j; j++) { /* para recorrar los tags y validar si hacen math con las condicion*/
+      if (data[i].tags[j] === condition) { //validamos unos de los tantos roles que puede tener el champion  , con la condition
+        newChampions.push(data[i]);  //agregamos a ese campion a otro array nuevo
       }
     }
   }
@@ -21,17 +21,22 @@ const sortData = (data, sortBy, sortOrder) => {
   } else {
     championFilter = filterData(data, sortBy);
   }
-  if (sortOrder === "1") {
+
+
+  if (sortOrder === "1") { //ordenar de la A-Z
     let newAZ = championFilter.sort((a, b) => {
       return a.name.localeCompare(b.name);
     });
     return newAZ;
-  } else if (sortOrder === "2") {
+  } 
+  else  { //ordenar de Z-A
     let newZA = championFilter.sort((a, b) => {
       return b.name.localeCompare(a.name);
     });
     return newZA;
   }
+ 
+
 };
 
 const computeStats = (data) => {
